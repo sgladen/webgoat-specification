@@ -1,0 +1,11 @@
+classPath: '<path-to-repo>/WebGoat/target/classes/'
+entryPoints:
+  - org.owasp.webgoat.lessons.ssrf.SSRFTask1
+  - org.owasp.webgoat.lessons.ssrf.SSRFTask2
+specPath: '<path-to-repo>/webgoat-specification/target/'
+selectedSpecs:
+  - SSRFTask1
+  - SSRFTask2
+asSpecFile: 'false'
+solver: "Boomerang3"
+isPostProcessResult: false
